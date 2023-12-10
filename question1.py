@@ -18,4 +18,4 @@ def get_beer():
     return render_template('index.html', beer=beer)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host= "0.0.0.0", port=5002)
